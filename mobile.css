@@ -1,6 +1,7 @@
 @media only screen and (max-width:600px){
   body{
-    width: 100vw;
+    margin: 0;
+    padding: 0;
   }
   .mobile{
     display: block;
@@ -11,7 +12,7 @@
   width: 15rem;
   margin-top: 3rem;
 right: 0;  
-margin-right: .5rem;
+margin-right: 1rem;
 height: 40rem;
 padding: 0%
 ;
@@ -50,12 +51,13 @@ width: 10rem;
 
 }
 .sideFooter{
-  width: 13rem;
+  width: 12rem;
 }
 .grid{
   grid-template-columns: auto auto;
-  margin: 1rem 1rem 0;
-  width: 92%;
+  margin: 1rem 2rem 0;
+  width: 90%;
+  row-gap: 23px;
   
 }
 .col{
@@ -63,16 +65,18 @@ width: 10rem;
   padding: .5rem;
 }
 .col img{
-  width: 10rem;
-  height: 7rem;
+  width: 9rem;
+  height: 10rem;
+
+}
+.stat{
+  width: 9rem;
 
 }
 input{
   display: none;
 }
-.footer{
-  
-}
+
 .lorem{
   font-size: 12px;
   width: 80%;
