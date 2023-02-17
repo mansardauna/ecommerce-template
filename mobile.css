@@ -1,5 +1,48 @@
-@media screen and {}
+@media only screen and (max-width:600px){
+  body{
 
-.sidebar {
+  }
+  .mobile{
+    display: block;
+  }
+
+.sideBar {
   display: none;
+}
+
+.fix{
+  width: 96%;
+  
+}
+.container{
+  left: 0;
+}
+.grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 1rem;
+}
+.col{
+  padding: .5rem;
+}
+.col img{
+  width: 10rem;
+  height: 10rem;
+}
+input{
+  display: none;
+}
+.footer{
+  width: 100%;
+  height: fit-content;
+}
+.lorem{
+  padding: 0;
+  font-size: 13px;
+  margin-bottom: 1rem;
+}
+.footer .flex{
+  width: 90%;
+  font-size: 12px;
+}
 }
