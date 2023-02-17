@@ -10,9 +10,20 @@
   <link rel="stylesheet" href="./mobile.css">
 </head>
 
+<script>
+  function myFunction() {
+    var x = document.getElementById("sidebar");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
+
 <body>
   <div class="flex wrapper">
-    <div class="sideBar">
+    <div class="sideBar active" id="sidebar">
       <div class="card cursor">
         <img src="./Screenshots/Screenshot from 2023-02-16 05-09-41.png" alt="" class="user">
         <div id="username">ABDULRAHMAN MANSUR</div>
@@ -60,7 +71,7 @@
           <img src="./Screenshots/money.svg" alt="">
           <img src="./Screenshots/message.svg" alt="">
           <img src="./Screenshots/notification.svg" alt="">
-          <img src="./Screenshots/more.svg" alt="" class="mobile">
+          <img src="./Screenshots/more.svg" alt="" class="mobile" onclick="myFunction()">
 
         </div>
       </div>

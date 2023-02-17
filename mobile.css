@@ -8,11 +8,26 @@
 
 .sideBar {
   display: none;
+  width: 60%;
+  right: 0;
+  margin-top: 4rem;
+  height: 50%;
+  opacity: 0.9;
+  position: absolute;
 }
+#username{
+  font-weight: 500;
+  color: white;
+  margin-top: 3rem;
+}
+
 
 .fix{
   width: 96%;
   
+}
+.sideBar .user{
+  display: none;
 }
 .container{
   left: 0;
@@ -20,7 +35,7 @@
 .grid{
   display: grid;
   grid-template-columns: auto auto;
-  margin-left: 1rem;
+  margin-left: .2rem;
 }
 .col{
   padding: .5rem;
