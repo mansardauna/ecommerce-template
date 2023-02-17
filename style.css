@@ -63,7 +63,6 @@ body {
 
 #username {
   width: 18rem;
-  /* color: black; */
   font-size: 15px;
   font-weight: 400;
   justify-content: center;
@@ -199,7 +198,7 @@ input:focus {
   justify-content: space-between;
 }
 .notification img{
-  width: 20px;
+  width: 15px;
   height: 25px;
 }
 .container {

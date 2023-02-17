@@ -1,6 +1,6 @@
 @media only screen and (max-width:600px){
   body{
-
+    width: 100vw;
   }
   .mobile{
     display: block;
@@ -8,56 +8,88 @@
 
 .sideBar {
   display: none;
-  width: 60%;
-  right: 0;
-  margin-top: 4rem;
-  height: 50%;
-  opacity: 0.9;
-  position: absolute;
+  width: 15rem;
+  margin-top: 3rem;
+right: 0;  
+margin-right: .5rem;
+height: 40rem;
+padding: 0%
+;
+opacity: 0.9;
+position: absolute;
+  
+}
+.logo img{
+  width: 50%;
+  height: 30%;
 }
 #username{
-  font-weight: 500;
-  color: white;
-  margin-top: 3rem;
+  width: fit-content;
+text-align: center;
+margin: 1.5rem 4rem; 
 }
 
 
 .fix{
   width: 96%;
+ 
   
 }
-.sideBar .user{
-  display: none;
+.block{
+padding: .5rem 2rem;
+width: 10rem;
 }
+
 .container{
   left: 0;
 }
+.block:hover{
+  border: none;
+  border-left: 2px solid white;
+  
+
+}
+.sideFooter{
+  width: 13rem;
+}
 .grid{
-  display: grid;
   grid-template-columns: auto auto;
-  margin-left: .2rem;
+  margin: 1rem 1rem 0;
+  width: 92%;
+  
 }
 .col{
+ 
   padding: .5rem;
 }
 .col img{
   width: 10rem;
-  height: 10rem;
+  height: 7rem;
+
 }
 input{
   display: none;
 }
 .footer{
-  width: 100%;
-  height: fit-content;
+  
 }
 .lorem{
-  padding: 0;
-  font-size: 13px;
-  margin-bottom: 1rem;
+  font-size: 12px;
+  width: 80%;
+
+}
+.footer{
+  width: 99%;
 }
 .footer .flex{
-  width: 90%;
   font-size: 12px;
+  width: 85%;
+ 
+}
+#foot:hover{
+  color: wheat;
+}
+.copy{
+  width: 95%;
 }
 }
